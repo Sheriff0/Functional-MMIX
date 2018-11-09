@@ -20,7 +20,7 @@ zc &= z;
    if(c == 7/*base case*/){
      return (yc & zc);
    }else{
-     return ((yc & zc) | mor(y,z,i,j,c+1,ys-8,zs-1));
+     return ((yc & zc) ^ mor(y,z,i,j,c+1,ys-8,zs-1));
    }
 }
 
