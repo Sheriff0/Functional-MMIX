@@ -24,7 +24,7 @@ $ ./mux 567_7654_7656
 ```
 
 # About the output
-Passing any other argument after the expected operands of an operation prints the output as an unsigned integer instead of int bits. For example, running
+Passing any other argument after the expected operands of an operation prints the output as an unsigned integer instead of in bits. For example, running
 
 ```console
 $ ./mux 67_85_1087
